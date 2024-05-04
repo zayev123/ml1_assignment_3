@@ -1,0 +1,17 @@
+https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction			
+			
+https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients			
+			
+https://archive.ics.uci.edu/dataset/148/statlog+shuttle
+
+
+source assgn_3_env/bin/activate
+
+git remote add origin https://github.com/zayev123/ml1_assignment_3.git
+
+git remote set-url origin https://ghp_accesstoken@github.com/zayev123/ml1_assignment_3.git
+
+pip cache purge
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
